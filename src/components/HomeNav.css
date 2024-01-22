@@ -1,0 +1,41 @@
+.navbar {
+  margin-top: 0;
+  transition: background 0.4s ease;
+  background: linear-gradient(rgba(0, 0, 0, 0.564), rgba(0, 0, 0, 0.306), rgba(0, 0, 0, 0));
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.navbar.scrolled {
+  background-color: rgba(0, 0, 0, 0.671);
+  transition: background 0.4s ease;
+}
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar .left {
+  display: flex;
+  gap: 2.5rem;
+  justify-content: center;
+  align-items: center;
+}
+.navbar .left img {
+  height: 4rem;
+}
+.navbar .left a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+}
+.navbar .left a:hover {
+  color: lightgray;
+}
+.navbar .right {
+  color: white;
+  display: flex;
+  gap: 2rem;
+}/*# sourceMappingURL=HomeNav.css.map */

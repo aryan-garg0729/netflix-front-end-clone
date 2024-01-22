@@ -1,0 +1,41 @@
+.navbar{
+    margin-top: 0;
+    transition: background 0.4s ease;
+    &.scrolled{
+        background-color: rgba(0, 0, 0, 0.671);
+        transition: background 0.4s ease;
+    }
+    background:linear-gradient(rgba(0, 0, 0, 0.564),rgba(0, 0, 0, 0.306),rgba(0, 0, 0, 0));
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    .container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .left{
+        display: flex;
+        gap: 2.5rem;
+        justify-content: center;
+        align-items: center;
+        img{
+            height: 4rem;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: 1.3rem;
+            &:hover{
+                color: lightgray;
+            }
+        }
+    }
+    .right{
+        color: white;
+        display: flex;
+        gap: 2rem;
+    }
+}

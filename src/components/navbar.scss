@@ -1,0 +1,65 @@
+
+nav{
+    width: 85%;
+    height: fit-content;
+    display: flex;
+    justify-content:space-between;
+    padding: 1rem;
+    position: absolute;
+    top: 2rem;
+    color: white;
+}
+.logo{
+    height: 4rem;
+}
+.btns{
+    display: flex;
+    height: 2.7rem;
+    width: auto;
+    gap: 1rem;
+    button{
+        word-wrap: break-word;
+        text-decoration: none;
+        border-radius: 4px;
+        padding: 0rem 1.5rem 0rem 1.5rem;
+        font-size: 1.3rem;
+        font-weight: 600;
+        background-color:#e50914 !important ;
+        &:hover{
+            background-color: #c40811 !important;
+        }
+    }
+    .dropdown{
+        border: 0.5px solid rgb(147, 147, 147);
+        border-radius: 2px;
+        font-size: 1rem;
+        margin-top: auto;
+        a{
+            color: white;
+        }
+        ul{
+            background-color: black;
+            
+        }
+    }
+}
+@media screen  and (max-width:478px) {
+    .btns{
+        height: 2.5rem;
+    }
+    nav{
+        width: 100%;
+    }
+    .logo{
+        height: 4rem;
+    }
+    .btns{
+        button{
+            font-size: 1rem;
+            padding:  0.25rem 0.73rem 0.4rem 0.75rem;
+        }
+        .dropdown{
+            font-size: 1rem;
+        }
+    }
+}

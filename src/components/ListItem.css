@@ -1,0 +1,65 @@
+.listItem {
+  border-radius: 3px;
+  width: 22.5rem;
+  height: 12rem;
+  background-color: rgb(0, 0, 0);
+  margin: 0.5rem;
+  margin-bottom: 5rem;
+  position: relative;
+  transition: height, width 500ms;
+}
+.listItem .desc {
+  background-color: black;
+}
+.listItem .iteminfo {
+  display: none;
+  padding: 0.5rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-left: 1rem;
+}
+.listItem .iteminfo .icons {
+  display: flex;
+  margin-bottom: 3px;
+  gap: 0.5rem;
+}
+.listItem .iteminfo .icons .icon {
+  padding: 2px;
+  font-size: 2rem;
+  border: 1.5px solid white;
+  border-radius: 100px;
+}
+.listItem img {
+  border-radius: 3px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.listItem:hover {
+  box-shadow: 0px 0px 24px 0px rgba(255, 255, 255, 0.75);
+  -webkit-box-shadow: 0px 0px 24px 0px rgba(255, 255, 255, 0.75);
+  -moz-box-shadow: 0px 0px 24px 0px rgba(255, 255, 255, 0.75);
+  justify-content: center;
+  cursor: pointer;
+  top: -5rem;
+  height: 22rem;
+  margin-bottom: -5rem;
+  width: 32rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.listItem:hover img {
+  height: 14rem;
+  display: none;
+}
+.listItem:hover video {
+  height: 14rem;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.listItem:hover .iteminfo {
+  display: block;
+}/*# sourceMappingURL=ListItem.css.map */

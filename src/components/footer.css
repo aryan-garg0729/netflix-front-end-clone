@@ -1,0 +1,33 @@
+footer {
+  width: 100%;
+  position: absolute;
+  padding: 8%;
+  background-color: black;
+  color: rgb(174, 174, 174);
+  font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+footer div {
+  width: 100%;
+}
+footer p {
+  font-size: 1.4rem;
+}
+footer .links {
+  display: flex;
+  justify-content: space-around;
+}
+footer .links .link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+footer .links .link a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  color: rgb(174, 174, 174);
+  text-decoration: underline;
+}/*# sourceMappingURL=footer.css.map */
